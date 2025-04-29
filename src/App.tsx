@@ -30,7 +30,7 @@ function App(): JSX.Element {
         </div>
       </div>
 
-      {/* Footer längst ner */}
+      
       <Footer />
     </div>
   );
