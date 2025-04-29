@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Contact } from "./Contact"; // Importera Contact-komponenten
+import { Contact } from "./Contact"; 
 
 export function ContactSection(): JSX.Element {
   const [showContactForm, setShowContactForm] = useState(false);
@@ -7,7 +7,7 @@ export function ContactSection(): JSX.Element {
   const toggleContactForm = () => setShowContactForm(!showContactForm);
 
   return (
-    <section id="contact-section" className="px-4 max-w-3xl mx-auto mt-16">
+    <section id="contact-section" className="px-4 max-w-3xl mx-auto mt-2">
       {/* Text eller knapp som togglar kontaktformuläret */}
       <div className="text-center">
               <button
