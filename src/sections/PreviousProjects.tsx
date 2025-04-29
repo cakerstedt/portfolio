@@ -19,6 +19,7 @@ export function PreviousProjects() {
         <img src="src/img/c-sharp.svg" alt="C#" className="w-10 h-10" />
         <img src="src/img/html-5.svg" alt="HTML5" className="w-10 h-10" />
         <img src="src/img/css-3.svg" alt="CSS" className="w-10 h-10" />
+        <img src="src/img/bootstrap.svg" alt="Bootstrap" className="w-10 h-10" />
         <img src="src/img/javascript.svg" alt="JS" className="w-10 h-10" />
         <img src="src/img/hugging-face-icon.svg" alt="HuggingFace" className="w-10 h-10" />
       </div>
@@ -34,7 +35,7 @@ export function PreviousProjects() {
           <strong>GitHub:</strong>
           <a
             href="https://github.com/cakerstedt"
-            className="text-green-400 underline"
+            className="text-green-400 underline hover:text-green-600"
           >
             github.com/cakerstedt
           </a>
